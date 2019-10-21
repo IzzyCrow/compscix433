@@ -1,0 +1,32 @@
+Instructions: Have all the code for all the questions in one Jupyter notebook and upload
+the file at the time of submission. I will only consider these this file format for grading.
+So, after you uploaded the file, check the file extension and if it is not an ipynb,
+then upload the right file.
+
+
+Way to present:
+# Solution 1 to indicate solution to question 1. Please submit original work.
+
+ 
+
+Go to
+https://archive.ics.uci.edu/ml/datasets/Air+Quality
+
+and download the Excel file.
+
+Use Pandas to perform the following:
+
+1) read the Excel file and create a dataframe
+
+2) Find the number of columns and rows
+
+3) Print the first 5 rows of the dataframe
+
+4) Find the data type of the columns
+
+5) Find the missing values in the column and replace them with the mean of the column
+
+6) Find the correlation between features.
+
+Pick features that are least correlated and perform linear regression
+Find the mean squared and r-squared errors for the training and test.
